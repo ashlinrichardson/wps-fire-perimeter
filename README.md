@@ -67,7 +67,7 @@ Proof of concept demo: [https://wps-dev-featureserv.apps.silver.devops.gov.bc.ca
 ## Ubuntu
 
 ```bash
-pip install pygdal==3.0.4.10
+pip3 install pygdal==3.0.4.10 poetry
 poetry install
 poetry run python -m pip install pygdal==3.0.4.10
 make cli
